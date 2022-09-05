@@ -1,0 +1,28 @@
+body{/*cor de fundo*/
+    background-color: rgb(224, 233, 248);
+}
+.nav-link{ /*tamanho da fonte nos botões da nav*/
+    font-size: 20px;  
+}
+
+h5{/*posicionamento do h5*/
+    padding-top: 3rem;
+    padding-left: 1rem;
+}
+.paragrafo{/*posicionamento da div paragrafo*/
+    padding-left: 1.7rem;
+}
+
+.wrapper{/*posicionamento da div mb-3*/
+    padding-top: 5rem;  
+}
+.wrapper h5{/*alinhamento do h5 "Meus contatos"*/
+    text-align: center;
+}
+#carousel{/*posicionamnto vertical do carrossel*/
+    padding-top: 5rem;
+}
+footer{/*posicionamento do footer*/
+    margin-top: 10em;
+    text-align: center;
+}

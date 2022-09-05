@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-min.css"><!--bootstrap 5-->
+  <link rel="stylesheet" href="style.css"><!--link do arquivo css-->
+  <title>Trabalho de Ferramentas Web</title>
+</head>
+
+<body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light"><!--no lugar de um logotipo coloquei meu nome que também serve como botão para retornar a página inicial-->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <h4>Mauricio rosa</h4>
+              <p>Quality assurance</p>
+            </a>
+          
+
+          <!--menu toggle-->
+          <div class="col-2">
+            <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <!--div dos botões-->
+            <div class="col-8">
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href pagina="sobreMim.html">Sobre mim</a>
+                  <a class="nav-link active" href pagina="formacao.html">Formação</a>
+                  <a class="nav-link active" href="https://maurd22.github.io/Cronometro/">Portifólio</a>
+                  <a class="nav-link active" href pagina="contato.html" tabindex="1">Contato</a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+       
+      <!--div que recebe o conteudo das outras páginas-->
+      <div class="row">
+        <div class="col">
+          <div id="conteudo">
+  
+          </div>
+        </div>
+      </div>
+     
+      <!--estrutura do carrossel-->
+    <div class="row" id="carrossel">
+      <div class="col-6 offset-3">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/angularJs.jpg.webp" class="d-block w-100" alt="Angular">
+            </div>
+            <div class="carousel-item">
+              <img src="img/bootstrap-icons.png" class="d-block w-100" alt="Bootstrap">
+            </div>
+            <div class="carousel-item">
+              <img src="img/stack.png" class="d-block w-100" alt="web stack">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+  <footer><!--rodapé-->
+    <p>&copy; Desenvolvido por Mauricio Rosa RU 3731164</p>
+  </footer>
+
+  <!--funcinalidades do bootstrap em JS-->
+  <script src="bootstrap-boundle-min.js"></script>
+
+  <!--link do arquivo js-->
+  <script src="index.js"></script>
+</body>
+
+</html>
